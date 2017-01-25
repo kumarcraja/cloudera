@@ -18,6 +18,7 @@ API command to stop hive services
 API command to start hive services
 ==================================
 
+```
 [ec2-user@ip-172-31-1-209 ~]$ curl -X POST -u kumarcraja:cloudera   'http://localhost:7180/api/v1/clusters/kumarcraja/services/hive/commands/start'
 {
   "id" : 443,
